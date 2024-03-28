@@ -22,8 +22,16 @@ public class Main {
         return d * e;
     }
 
-    public static double print5(double g, double h, double i) {
+    //函式梯形面積計算練習
+    public static double printme5(double g, double h, double i) {
         return ((g + h) * i)/ 2;
+    }
+
+    //紅綠燈燈號函式
+    public static String printme6(String k){
+
+
+        return k;
     }
 
     public static void main(String[] args) {
@@ -39,7 +47,7 @@ public class Main {
         int f = printme4(4, 6);
         System.out.println(f);
 
-        double j = print5(1, 2, 3);
+        double j = printme5(1, 2, 3);
         System.out.println(j);
     }
 }
