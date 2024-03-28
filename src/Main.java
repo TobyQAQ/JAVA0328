@@ -16,6 +16,11 @@ public class Main {
         return "救命";
     }
 
+    //有參數有回傳值
+    public static int printme4(int d, int e) {
+
+        return d * e;
+    }
 
     public static void main(String[] args) {
 
@@ -26,5 +31,10 @@ public class Main {
         //如果有回傳值必須要有變數來接回傳的值
         String a = printme3();
         System.out.println(a);
+
+        int f = printme4(4, 6);
+        System.out.println(f);
+
+
     }
 }
