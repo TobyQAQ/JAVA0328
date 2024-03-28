@@ -22,6 +22,10 @@ public class Main {
         return d * e;
     }
 
+    public static double print5(double g, double h, double i) {
+        return ((g + h) * i)/ 2;
+    }
+
     public static void main(String[] args) {
 
         printme1();
@@ -35,6 +39,7 @@ public class Main {
         int f = printme4(4, 6);
         System.out.println(f);
 
-
+        double j = print5(1, 2, 3);
+        System.out.println(j);
     }
 }
